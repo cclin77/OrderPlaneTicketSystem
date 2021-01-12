@@ -65,3 +65,5 @@ DAO层:data access object(与数据库交互)
 service层：业务相关代码
 UI层
 bbl层：bussiness logic layer
+  
+什么时候需要 commit 和 push？
