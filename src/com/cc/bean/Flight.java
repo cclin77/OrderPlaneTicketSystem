@@ -4,6 +4,8 @@ import java.util.Date;
 
 public class Flight {
     private String id;
+    private String seatsNo;
+    private String totalSeatsNum;//总座位数
     private String PlaneType;//航班类型
     private String departureAirport;//出发地
     private String destinationAirPort;//目的地
@@ -47,5 +49,21 @@ public class Flight {
 
     public void setDepartureTime(Date departureTime) {
         this.departureTime = departureTime;
+    }
+
+    public String getSeatsNo() {
+        return seatsNo;
+    }
+
+    public void setSeatsNo(String seatsNo) {
+        this.seatsNo = seatsNo;
+    }
+
+    public String getTotalSeatsNum() {
+        return totalSeatsNum;
+    }
+
+    public void setTotalSeatsNum(String totalSeatsNum) {
+        this.totalSeatsNum = totalSeatsNum;
     }
 }
