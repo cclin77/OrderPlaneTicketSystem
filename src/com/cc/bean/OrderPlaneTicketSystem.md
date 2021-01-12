@@ -67,3 +67,7 @@ UI层
 bbl层：bussiness logic layer
   
 什么时候需要 commit 和 push？
+
+航班的 ID（没有业务意义），使用 JAVA 
+一个实体类对应一个数据库表
+一个对象对应某个表的一条记录
