@@ -8,12 +8,12 @@ import java.util.Set;
 public class SetDemo {
     public static void main(String[] args) {
         Set set = new HashSet();
-        List list = new ArrayList();
-        list.set(1);
-        list.set("hechixueyuan");
-        list.set(888.8F);
-        list.set(false);
-        list.set(1);
-        System.out.println("当前元素"+list.size());
+        set.add(1);
+        set.add("hechixueyuan");
+        set.add(888.8F);
+        set.add(false);
+        set.add(1);
+        System.out.println(set.size());
+
     }
 }
