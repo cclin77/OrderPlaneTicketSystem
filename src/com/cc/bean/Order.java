@@ -1,3 +1,5 @@
+package com.cc.bean;
+
 import java.util.Set;
 
 public class Order {
@@ -10,7 +12,7 @@ public class Order {
     private float yhq;//优惠券
     private float hszj;//含税总价
     private Set<Customer> customerset;
-
+    private Flight flight;
 
 
     public String getId() {
@@ -83,5 +85,13 @@ public class Order {
 
     public void setCustomerset(Set<Customer> customerset) {
         this.customerset = customerset;
+    }
+
+    public Flight getFlight() {
+        return flight;
+    }
+
+    public void setFlight(Flight flight) {
+        this.flight = flight;
     }
 }

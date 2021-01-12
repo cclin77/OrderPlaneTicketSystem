@@ -1,3 +1,4 @@
+/*
 package com.cc;
 
 import java.util.HashSet;
@@ -8,3 +9,4 @@ public class setDemo01 {
         Set<String> set = HashSet<String>();
     }
 }
+*/

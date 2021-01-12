@@ -1,4 +1,7 @@
+package com.cc.bean;
+
 import java.util.Date;
+import java.util.Set;
 
 public class Customer {
     private String id;
@@ -7,6 +10,9 @@ public class Customer {
     private String phone;//电话
     private String cardId;//身份证
     private Date birthDate;//出生日期
+//  private Order order;l;n.
+    private Set<Order> orderSet;
+
 
     public Date getBirthDate() {
         return birthDate;
@@ -46,5 +52,21 @@ public class Customer {
 
     public void setCardId(String cardId) {
         this.cardId = cardId;
+    }
+
+    public Set<Order> getOrderSet() {
+        return orderSet;
+    }
+
+    public void setOrderSet(Set<Order> orderSet) {
+        this.orderSet = orderSet;
+    }
+
+    public String getCustomerType() {
+        return customerType;
+    }
+
+    public void setCustomerType(String customerType) {
+        this.customerType = customerType;
     }
 }
