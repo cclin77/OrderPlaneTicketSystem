@@ -5,18 +5,20 @@ import com.cc.bll.IFlightService;
 import com.cc.dao.IFlightDao;
 import com.cc.dao.impl.FlightDaoIml;
 
+import java.sql.SQLException;
 import java.util.Set;
 
 public class FlightServiceImpl implements IFlightService {
+    IFlightDao iFlightDao = new FlightDaoIml();
 
     @Override
-    public void insertFlight(Flight flight) {
-        System.out.println(flight);
+    public void insertFlight(Flight flight) throws SQLException {
+        this.iFlightDao.insertFlight(flight);
     }
 
     @Override
-    public Set<Flight> getAllFlights() {
-        return null;
+    public Set<Flight> getAllFlights() throws SQLException {
+        return this.iFlightDao.getAllFlights();
     }
 
     @Override
@@ -35,7 +37,7 @@ public class FlightServiceImpl implements IFlightService {
     }
 
     @Override
-    public void updateFlight(Flight flight) {
+    public void updateFlight(Flight var1) {
 
     }
 }

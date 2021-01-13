@@ -71,3 +71,31 @@ bbl层：bussiness logic layer
 航班的 ID（没有业务意义），使用 JAVA 
 一个实体类对应一个数据库表
 一个对象对应某个表的一条记录
+
+### 五、OCP案例
+
+### 5.1、读取 XML
+
+dom4j
+
+Spring
+SpringBoot
+SpringMVC
+
+java.util
+utility
+
+## 六、异常
+
+### 6.1、精准的提示用户程序到底发生了什么问题
+
+### 6.2、
+- 运行时异常
+  发生的概率较低
+- 检查异常
+
+### 6.3、异常的处理
+
+- 抛出
+- 捕获
+

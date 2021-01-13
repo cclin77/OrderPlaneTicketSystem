@@ -10,7 +10,7 @@ public class Customer {
     private String phone;//电话
     private String cardId;//身份证
     private Date birthDate;//出生日期
-//  private Order order;l;n.
+//  private Order order;
     private Set<Order> orderSet;
 
 
